@@ -26,7 +26,7 @@ const gameLoop = () => {
     healthD();
     if (theAnimal.hunger == 0 || theAnimal.thirst == 0) {
         deathStatus = true;
-        console.log(chalk.cyan(`${animal.name.toUpperCase()} died :(`));
+        console.log(chalk.cyan(`${theAnimal.name.toUpperCase()} died :(`));
         return;
     }
 
